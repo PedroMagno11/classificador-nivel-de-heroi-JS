@@ -1,0 +1,154 @@
+:root{
+    --font-default: 'warcraft';
+    --font-color: #FF3A19;
+    --background-color: #252525;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fefefe;
+    background-image: url('../img/backgroundLoginPage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 100vw;
+    height: 80px;
+    background-color: black;
+    color: #fefefe;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.header .header-logo img{
+    width: 200px;
+}
+
+.header .header-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    padding: 1rem;
+    background-color: #25252580;
+    height: 100vh;
+}
+
+.addPersonagem{
+    height: 200px;
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+input{
+    font-family: var(--font-default);
+    background-color: transparent;
+    border: 1px solid var(--font-color);
+    width: 230px;
+    height: 35px;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+input::placeholder{
+    color: #ffffff;
+}
+
+#btn-cadastro{
+    margin-top: 20px;
+    height: 40px;
+    width: 230px;
+    color:var(--font-color);
+    background-color: transparent;
+    border: 1px solid var(--font-color);
+    cursor: pointer;
+    font-family: 'warcraft';
+    padding:5px ;
+    font-size: 30px;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+#btn-cadastro:hover{
+    color: #ffffff;
+    background-color: var(--font-color);
+    font-family: 'warcraft';
+}
+
+.content-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: #25252595;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.content-box .title{
+    color: var(--font-color);
+    font-size: 40px;
+}
+
+.content-box .personagem-card{
+    color: #fefefe;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 0px 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.content ,.content-box .personagem-card:hover{
+    cursor: pointer;
+    color: var(--font-color);
+}
+
+.content-box .personagem-card .personagem-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box .personagem-card .personagem-btn button{
+    border: 1px solid var(--font-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    color: var(--font-color);
+    border-radius: 8px;
+    background-color: #252525;
+}
+
+.content-box .personagem-card .personagem-btn button:hover{
+    background-color: var(--font-color);
+    color: #fefefe;
+    border: none;
+    cursor: pointer;
+}
