@@ -21,7 +21,7 @@ O objetivo deste projeto é criar um sistema de classificação para personagens
       - **Platina:** 7000 <= XP < 8000
       - **Ascendente:** 8000 <= XP < 9000
       - **Imortal:** 9000 <= XP < 10000
-      - **Radiante:** XP >= 100000
+      - **Radiante:** XP >= 10000
 
 3. **Funcionalidades:**
    - O sistema deve receber o nome do personagem e sua quantidade de XP.
